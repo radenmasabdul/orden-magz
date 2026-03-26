@@ -1,11 +1,7 @@
 <script setup lang="ts">
+import ArticlePage from '../features/articles/pages/ArticlePage.vue';
 </script>
 
 <template>
-  <h1 class="font-display text-5xl font-bold text-red-500">
-    The Daily Feed Homepage
-  </h1>
-  <p class="font-sans text-sm">
-    subtitle di sini
-  </p>
+  <ArticlePage />
 </template>
